@@ -19,10 +19,10 @@ example:
 
 Estadistica /home/ozkar/Code/SE/2013/09/14 /home/ozkar/Result.txt
 
-the progams adds a line to Result.txt, separated by commas with the Date in YYY-MM-DD format,
+the progams adds a line to Result.txt, separated by spaces with the Date in YYY-MM-DD format,
 the mean, the standard deviation, the mode, and the size of the input file samples.
 
-where they should be (also separated by commas) the time in HH:MM 24 hour format and followed by a value.
+where they should be (also separated by spaces) the time in HH:MM 24 hour format and followed by a value.
 
 example:
 

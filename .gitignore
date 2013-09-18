@@ -15,10 +15,9 @@ Makefile.in
 # haskell
 *.hi
 *.o
-
 /MDC/*.hi
 /MDC/*.o
 
+#varios stuff
 /compileEstadistica
 /Estadistica
-/tests

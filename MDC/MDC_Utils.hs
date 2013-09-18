@@ -20,5 +20,5 @@ file2Date xs = concat . intersperse "-" . map (take 4) $ listdate
 			where splitlist = splitOn "/" xs
 
 --returns the value of the input file line, first argument is delimiter, second
---getValFromLine :: String -> String -> Double
---getValFromLine c xs = snd (splitOn c xs)
+getValFromLine :: String -> String -> Double
+getValFromLine c xs = head(string2Double[last (splitOn c xs)])

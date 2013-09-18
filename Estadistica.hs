@@ -13,5 +13,5 @@ main = do
   	   putStrLn $ "MDC [inputfile] [outputfile]"
 	  else do	
 	   let fileDate = file2Date(head args) --get the date from the file structure path.
-	   putStrLn $ fileDate++","++commaSeparate(mdc ([1,2,3,4,5]::[Double]))
+	   putStrLn $ fileDate++" "++listSeparate " " (mdc ([1,2,3,4,5]::[Double]))
 	

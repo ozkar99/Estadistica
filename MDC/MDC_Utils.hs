@@ -3,8 +3,8 @@ import Data.List
 import Data.List.Split
 
 --function to coma separate values, from a list containing doubles
-commaSeparate :: [Double] -> String
-commaSeparate xs = concat . intersperse "," . map show $ xs
+listSeparate :: String -> [Double] -> String
+listSeparate c xs = concat . intersperse c . map show $ xs
 
 --convert from list of strings to list of doubles
 string2Double :: [String] -> [Double]
@@ -19,3 +19,6 @@ file2Date xs = concat . intersperse "-" . map (take 4) $ listdate
 		where listdate = reverse( take 3 (reverse splitlist) )
 			where splitlist = splitOn "/" xs
 
+--returns the value of the input file line, first argument is delimiter, second
+--getValFromLine :: String -> String -> Double
+--getValFromLine c xs = snd (splitOn c xs)

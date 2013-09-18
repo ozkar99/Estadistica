@@ -6,7 +6,7 @@ import System.Environment
 
 --function to get the mean/avg of a list
 avg :: [Double] -> Double
-avg xs = sum xs / genericLength xs
+avg xs = sum xs / (genericLength xs)
 
 --function to get the std deviation of a list
 stdev :: [Double] -> Double

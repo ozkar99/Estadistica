@@ -11,3 +11,14 @@ Makefile.in
 /depcomp
 /install-sh
 /missing
+
+# haskell
+*.hi
+*.o
+
+/MDC/*.hi
+/MDC/*.o
+
+/compileEstadistica
+/Estadistica
+/tests

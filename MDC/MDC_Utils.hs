@@ -2,7 +2,7 @@ module MDC_Utils where
 import Data.List
 import Data.List.Split
 
---function to coma separate values
+--function to coma separate values, from a list containing doubles
 commaSeparate :: [Double] -> String
 commaSeparate xs = concat . intersperse "," . map show $ xs
 

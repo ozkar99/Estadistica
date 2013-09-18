@@ -12,5 +12,6 @@ main = do
 	  then do
   	   putStrLn $ "MDC [inputfile] [outputfile]"
 	  else do	
-	   putStrLn $ "2013-09-28," ++ commaSeparate(mdc (string2Double args) )
+	   let fileDate = file2Date(head args) --get the date from the file structure path.
+	   putStrLn $ fileDate++","++commaSeparate(mdc ([1,2,3,4,5]::[Double]))
 	
